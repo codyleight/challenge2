@@ -1,0 +1,255 @@
+:root {
+    
+  --navcolor: aqua;
+    }
+    
+
+
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(196, 20, 20), rgb(218, 14, 201), rgb(55, 26, 184));
+}
+
+
+
+.header {
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(14, 13, 13) , rgb(92, 111, 136));
+    color: #ffffff;
+    border-radius: 10px;
+    
+}
+
+.header img{
+    display: inline-block;
+    margin: 10px;
+    max-width: 150px;
+    margin-bottom: -50px;
+    margin-top: -10px
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 44px;
+    color: rgb(224, 211, 206);
+    background-image: linear-gradient(to right, rgb(128, 75, 75) , rgb(184, 184, 125));
+    border-radius: 10px;
+  
+   
+}
+
+.header nav {
+    margin-top: 40px;
+    margin-right: 20px;
+    float: right;
+    font-size: 36px;
+}
+
+.header nav ul li {
+    background-color: rgb(174, 245, 195);
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-style:outset;
+    border-width: 3px;
+    position:inherit;
+    
+    
+    
+}
+.header nav ul li:hover {
+    background-color: rgb(226, 168, 43);
+}
+
+.header nav a{
+    color: rgb(177, 63, 63);
+    text-underline-offset: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(12, 12, 12);
+    border-radius: 5px;
+    
+}
+
+section{    
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-image: url("/assets/images/1231020-cyberpunk-Cyberpunk-2077-video-game-art-Colors-Album.jpg"); 
+    background-size: cover;
+    background-position: center;
+    outline: auto;
+    outline-color: black;
+    
+}
+
+article{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 250px;
+    margin-right: 35px;
+    border-radius: 5px;
+    color: #ffffff;
+   
+}
+
+article span{
+    color: bisque;
+}
+article h3{
+    color: black;
+    text-align: left;
+    display: flex;
+   justify-content: start;
+   margin: -40px;
+   margin-left: -400px;
+   box-shadow: 6px 6px 10px 10px rgb(13, 211, 128);
+ 
+}
+
+article a{
+    color: black;
+}
+
+article a:hover{
+color: #18d18a;
+}
+
+.flex {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.card-bottom {
+
+   margin-top: -35px;
+   text-align: end;
+   color: #18d18a;
+
+
+}
+.card-bottom1 {
+
+    margin-top: -35px;
+    margin-right: 170px;
+    text-align: end;
+    color: #18d18a;
+ 
+ 
+ }
+.picture {
+    width: 49%;
+    margin: 1px;
+}
+
+.picture1 {
+    width: 70%;
+    margin: 1px;
+}
+
+
+.picture:hover .card-bottom, .picture1:hover .card-bottom1{
+  color: rgb(255, 0, 0);
+}
+
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: left;
+    width: 10%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #18d18a;
+    outline-style: outset;
+    border-radius: 5px;
+}
+.rightside h2{
+    text-align: center;
+}
+
+#AM{
+    background-color: var(--navcolor);
+    padding: 10px;
+    padding-bottom: 300px;
+    outline-style: solid;
+    border-radius: 20px;
+    
+}
+
+#Work{
+    background-color: var(--navcolor);
+    padding: 10px;
+    padding-bottom: 1400px;
+    outline-style: groove;
+    border-radius: 20px;
+}
+#CM{
+    background-color: var(--navcolor);
+    padding: 10px;
+    padding-bottom: 50px;
+    outline-style: groove;
+    border-radius: 20px;
+}
+
+#Resume{
+    background-color: var(--navcolor);
+    padding: 10px;
+    padding-bottom: 50px;
+    outline-style: groove;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    .picture, .picture1{
+        width: fit-content;
+        scale: .5;
+        margin-left: -100px;
+        
+    }
+
+    .header nav{
+        display: flex;
+        justify-content: right;
+       align-content: end;
+        width: 100%;
+        scale: 1.1;
+        
+        
+    }
+
+    aside h2{
+        font-size: 14px;
+    }
+
+
+    article{
+        font-size: 9px;
+        
+    }
+
+    #Work{
+        padding-bottom: 1650px;
+    }
+
+    #CM{
+        padding-bottom: 180px;
+    }
+
+    #Resume{
+        padding-top: 10px;
+    }
+  
+   
+  }
