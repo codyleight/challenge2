@@ -11,13 +11,11 @@ Deployed Website - https://codyleight.github.io/challenge2/
 
 ## Usage
 
-A showcase for a business website, showcasing working links, pictures, spacing etc
+A showcase for my resume, where i can click links, click navigation to go to a section and see my other porjects.
 ## Credits
 
 Cody Thompson
-Repo location on pc: - C:\Users\JC\Desktop\Bootcamp2
-Guidance from https://www.w3schools.com/html/html5_semantic_elements.asp
+Repo location on pc: - C:\Users\JC\Desktop\Bootcamp2\challenge2
 
 ## Photo Preview (I have a wide monitor.)
  
-![Alt text](image.png)
