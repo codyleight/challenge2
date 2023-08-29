@@ -69,16 +69,15 @@ body{
     
 }
 
-section{    
+section img{    
     height: 300px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 10px;
-    background-image: url("/assets/images/1231020-cyberpunk-Cyberpunk-2077-video-game-art-Colors-Album.jpg"); 
     background-size: cover;
     background-position: center;
     outline: auto;
-    outline-color: black;
+
     
 }
 
