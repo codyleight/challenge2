@@ -2,7 +2,7 @@
 
 ## Description
 
-Second week challenge Challenge, showing my ability to adapt to semantic tags up to current standards while meeting my own wants aned needs. Additionally showcases my ability to debug any issues that come along.
+Second week challenge Challenge, showing my ability to use CSS and Flex materials. As well as use semantic tags to standards while meeting my own wants aned needs. Additionally showcases my ability to debug any issues that come along.
 
 ## Links
 
