@@ -1,0 +1,218 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(196, 20, 20), rgb(218, 14, 201), rgb(55, 26, 184));
+}
+
+
+
+header{
+    background-color: aqua;
+    background-image: linear-gradient(to right, rgb(14, 13, 13) , rgb(92, 111, 136));
+    border: 3px solid rgb(96, 178, 255);
+    
+}
+
+header nav ul{
+display: flex;
+    margin: 5px;
+    border-radius: 1px;
+    border-style:ridge;
+    border: 3px solid orange;
+    background-image: linear-gradient(rgb(196, 20, 20), rgb(218, 14, 201), rgb(55, 26, 184));
+  
+   
+}
+
+header nav ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(23, 252, 35);
+   margin-right: 25px;
+}
+
+header nav ul:hover {
+    color: rgb(4, 152, 238);
+    background-image: linear-gradient(rgb(55, 219, 5), rgb(66, 3, 238), rgb(219, 3, 3));
+}
+
+header img{
+    
+display: inline-block;
+border: 3px solid violet;
+    margin-left: -4px;
+    max-width: 150px;
+    margin-bottom: -42px;
+    margin-top: -2px
+}
+
+header h1{
+    display: inline-block;
+    position: absolute;
+    font-size: 26px;
+    color: whitesmoke;
+}
+
+header nav {
+    display: flex;
+    justify-content: right;
+}
+
+section div{
+    display: flex;
+   
+}
+
+section div h2{
+    color: rgb(252, 249, 249);
+   max-width: 35%;
+   border-right: 5px solid black;
+   text-align: center;
+   background-image: linear-gradient(to right, rgb(94, 177, 108) , rgb(10, 59, 124));
+   border-radius: 10px;
+}
+
+section div p{
+    border: 3px solid violet;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, rgb(94, 177, 108) , rgb(10, 59, 124));
+}
+
+
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+
+
+  }
+
+.card{
+    margin: 1px;
+    
+}
+
+
+  
+  .card header {
+    padding: 20px;
+  }
+  
+  .card p {
+    font-size: 24px;
+    color: brown;
+    text-align: right;
+    margin-top: -40px
+  }
+  
+  .card img {
+    width: 100%;
+    border: 3px solid rgb(25, 219, 25);
+  }
+
+  
+
+#pic1{
+    width:55%;
+}
+
+
+
+
+.CM{
+    
+    border: 3px solid violet;
+    
+    border-radius: 10px;
+    font-size: 32px;
+   
+    margin-left: 20%;
+}
+
+span{
+    
+        color: bisque;
+   
+}
+
+.card:hover .card-bottom{
+    color: aqua;
+}
+
+.card:hover img{
+    
+    border: 6px solid violet;
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 25px 25px 35px rgb(30, 250, 1);
+    
+}
+
+
+
+@media only screen and (max-width: 600px)
+ {
+    .wrap {
+        width:auto;
+        height:auto;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+    }
+
+    #pic1{
+        width:auto;
+        height:auto;
+    }
+
+    header nav {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .CM{
+        margin-left: -150px;
+        width:auto;
+       height:auto;
+       scale: .8;
+    }
+  
+
+  }
+
+  @media only screen and (max-width: 1608px) {
+    .wrap {
+        width:auto;
+        height:auto;
+        flex-direction:column-reverse;
+        justify-content:center;
+        text-align:center;
+    }
+
+    header nav {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .CM{
+       margin-left: -150px;
+       width:auto;
+       height:auto;
+       scale: .4;
+       
+    }
+
+    #pic1{
+        width:auto;
+        height:auto;
+    }
+
+    
+  }
