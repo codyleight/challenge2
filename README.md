@@ -18,6 +18,8 @@ Cody Thompson
 Repo location on pc: - C:\Users\JC\Desktop\Bootcamp2\challenge2
 used w3 schools and other examples.
 
+I did help out Jason Mason, and Bijan Olfati so some of their code may similar to mine.
+
 ## Photo Preview of Website
  
 ![Alt text](image.png)
