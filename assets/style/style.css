@@ -152,8 +152,29 @@ span{
     border: 6px solid violet;
     color: rgba(255, 255, 255, 1);
   box-shadow: 25px 25px 35px rgb(30, 250, 1);
+ 
     
 }
+
+.scale{
+ width: 20000px;
+}
+
+.boxy{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    height: 200px;
+   
+}
+
+.boxy p{
+    font-size: 24px;
+    color: rgb(7, 0, 0);
+    text-align: center;
+    margin-top: 
+}
+
 
 
 
